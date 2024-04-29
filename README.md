@@ -16,16 +16,15 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
    Regression value.
 ## Program:
 ```
-/*
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: 
 RegisterNumber:  
-*/
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
 
-data=np.loadtxt("ex2data1.txt",delimiter=',')
+data=np.loadtxt("Mall_Customer.csv",delimiter=',')
 X=data[:,[0,1]]
 y=data[:,2]
 
